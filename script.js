@@ -15,22 +15,38 @@
 //შექმენით მასივი, და დაბეჭდეთ სათითაოდ თითოეული ელემენტი; (for, while ციკლების საშუალებით)
 
 // let friends = ['giorgi', 'mari', 'daviti',]
-// for (let x = 0; x < friends.length; x++) {
-//   console.log(friends[x]);  
+
+// for (let i = 0; i < friends.length; i++) {
+//   console.log(friends[i]);  
 // }
 
-// for (let item of friends) {
-//     console.log(item);
+// for (let i of friends) {
+//     console.log(i);
 // }
 
-// let item = 0;
-// whine (item < friends.length) {
-//     console.log(friends[item]);
-//     item++
+// let i = 0;
+// whine (i < friends.length) {
+//     console.log(friends[i]);
+//     i++
 // }
 //--------------------------------------
 
 //davaleba-3
+//შექმენით მასივი, და ამოიღეთ ყველა რიცხვი რომელიც მეტია 5ზე, for ციკლის გამოყენებით
+
+// let numbers = [5, 6, 10, 25, 3, 7, 4, 100, 28, 36, 89];
+// for (let i of numbers) {
+//    if (i > 5) {
+//        console.log(i);
+//    }
+// }
+//------------------------------------------------------------------------------------------------
+
+
+
+
+
+
 
 //davaleba-4
 //davaleba-5
