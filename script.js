@@ -83,17 +83,48 @@ console.log(x == y);
 //მოცემულია მასივი:
 // ამოიღეთ მარტო ის სიტყვები რომლების სიმბოლოების რაოდენობა 5-ზე მეტია და მოიცავენ ‘ava’-ს;
 
-let array = ["html", "css", "bootstrap", "javascript", "python"];
-for ( let i of array) {
-    if (i.length> 5 && i.includes('ava')) {
-        console.log(i);
-    }
-}
+// let array = ["html", "css", "bootstrap", "javascript", "python"];
+// for ( let i of array) {
+//     if (i.length> 5 && i.includes('ava')) {
+//         console.log(i);
+//     }
+// }
 //----------------------------------------------
 
 
-
-
-
 //davaleba-8
+//მოცემულია ობიექტი:
+// let user = {
+// 	name: ‘giorgi’,
+// 	age:  20,
+// 	studentstatus: active
+// }
+// თუ უსერის ასაკი მეტია 18ზე და სტუდენტის სტატუსი აქტიურია დაიბეჭდოს ტექსტი: hello;
+// თუ უსერის სახელი უდრის გიორგის მაშინ დაიბეჭდოს ტექსტი: hello giorgi;
+// თუ უსერის სტუდენტის სტატუსი აქტიურია ან უსერის ასაკი ნაკლებია 25ზე დაიბეჭდოს ტექსტი: hello world;
+
+// let studentUser = {
+//     name: 'giotgi',
+//     age: 20,
+//     studentstatus: "active"
+// }
+// if (studentUser.age > 18 && studentUser.studentstatus === "active") {
+//     console.log("Hello");
+// } else if(studentUser.name === 'giorgi') {
+//     console.log('Hello giorgi');
+// } else if(studentUser.studentstatus === 'active' || studentUser.age < 25) {
+//     console.log('Hello  World');
+// } else {
+//     console.log("ERROR");
+// }
+//-----------------------------------------------
+
+
+
+
+
+
+
+
+
 //davaleba-9
