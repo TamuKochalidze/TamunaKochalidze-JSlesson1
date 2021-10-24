@@ -42,13 +42,26 @@
 // }
 //------------------------------------------------------------------------------------------------
 
-
-
-
-
-
-
 //davaleba-4
+//მოცემული მაისივიდან კონსოლში გამოვიტანოთ მარტო ის ობიექტი რომლის status პროეპრტი მნიშვნელობა არის true
+
+let users = [
+    {username:'test1', status: false},
+    {username:'test2', status: false},
+    {username:'test3', status: true},
+];
+for (let u in users) {
+    if (users[u].status == true) {
+        console.log(user[u]);
+    }
+}
+//-----------------------------------------------------
+
+
+
+
+
+
 //davaleba-5
 //davaleba-6
 //davaleba-7
