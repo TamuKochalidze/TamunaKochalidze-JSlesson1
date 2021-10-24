@@ -1,70 +1,70 @@
 //davaleba-1 
 //ამოიღეთ user ცვლადის სტუდენტის სტატუსი
 
-// let user = {
-//     firstName: 'giorgi',
-//     lastName: 'smith',
-//     age: 25,
-//     studentstatus: 'active'
-// };
-// console.log(user.studentstatus);
-// console.log(user['studentstatus']);
+let user = {
+    firstName: 'giorgi',
+    lastName: 'smith',
+    age: 25,
+    studentstatus: 'active'
+};
+console.log(user.studentstatus);
+console.log(user['studentstatus']);
 //----------------------------------
 
 //davaleba-2
 //შექმენით მასივი, და დაბეჭდეთ სათითაოდ თითოეული ელემენტი; (for, while ციკლების საშუალებით)
 
-// let friends = ['giorgi', 'mari', 'daviti',]
+let friends = ['giorgi', 'mari', 'daviti',]
 
-// for (let i = 0; i < friends.length; i++) {
-//   console.log(friends[i]);  
-// }
+for (let i = 0; i < friends.length; i++) {
+  console.log(friends[i]);  
+}
 
-// for (let i of friends) {
-//     console.log(i);
-// }
+for (let i of friends) {
+    console.log(i);
+}
 
-// let i = 0;
-// whine (i < friends.length) {
-//     console.log(friends[i]);
-//     i++
-// }
+let i = 0;
+whine (i < friends.length) {
+    console.log(friends[i]);
+    i++
+}
 //--------------------------------------
 
 //davaleba-3
 //შექმენით მასივი, და ამოიღეთ ყველა რიცხვი რომელიც მეტია 5ზე, for ციკლის გამოყენებით
 
-// let numbers = [5, 6, 10, 25, 3, 7, 4, 100, 28, 36, 89];
-// for (let i of numbers) {
-//    if (i > 5) {
-//        console.log(i);
-//    }
-// }
+let numbers = [5, 6, 10, 25, 3, 7, 4, 100, 28, 36, 89];
+for (let i of numbers) {
+   if (i > 5) {
+       console.log(i);
+   }
+}
 //------------------------------------------------------------------------------------------------
 
 //davaleba-4
 //მოცემული მაისივიდან კონსოლში გამოვიტანოთ მარტო ის ობიექტი რომლის status პროეპრტი მნიშვნელობა არის true
 
-// let users = [
-//     {username:'test1', status: false},
-//     {username:'test2', status: false},
-//     {username:'test3', status: true},
-// ];
-// for (let u in users) {
-//     if (users[u].status == true) {
-//         console.log(user[u]);
-//     }
-// }
+let users = [
+    {username:'test1', status: false},
+    {username:'test2', status: false},
+    {username:'test3', status: true},
+];
+for (let u in users) {
+    if (users[u].status == true) {
+        console.log(user[u]);
+    }
+}
 //-----------------------------------------------------
 
 //davaleba-5
 //მოცემული მასივიდან for ციკლის საშუალებით კონსოლში გამოიტანეთ მხოლოდ დადებითი რიცხვები:
-// let arr = [[2, -3, 5, 11], [1, -30, -11, 100], [-1, -3, -4]];
-// for (let n of arr[0]) {
-//     if (n > 0) {
-//         console.log(n);
-//     }
-// }
+let arr = [[2, -3, 5, 11], [1, -30, -11, 100], [-1, -3, -4]];
+for (let n of arr[0]) {
+    if (n > 0) {
+        console.log(n);
+    }
+}
 //-----------------------------------------------------
 
 //davaleba-6
@@ -83,12 +83,12 @@ console.log(x == y);
 //მოცემულია მასივი:
 // ამოიღეთ მარტო ის სიტყვები რომლების სიმბოლოების რაოდენობა 5-ზე მეტია და მოიცავენ ‘ava’-ს;
 
-// let array = ["html", "css", "bootstrap", "javascript", "python"];
-// for ( let i of array) {
-//     if (i.length> 5 && i.includes('ava')) {
-//         console.log(i);
-//     }
-// }
+let array = ["html", "css", "bootstrap", "javascript", "python"];
+for ( let i of array) {
+    if (i.length> 5 && i.includes('ava')) {
+        console.log(i);
+    }
+}
 //----------------------------------------------
 
 
@@ -103,20 +103,20 @@ console.log(x == y);
 // თუ უსერის სახელი უდრის გიორგის მაშინ დაიბეჭდოს ტექსტი: hello giorgi;
 // თუ უსერის სტუდენტის სტატუსი აქტიურია ან უსერის ასაკი ნაკლებია 25ზე დაიბეჭდოს ტექსტი: hello world;
 
-// let studentUser = {
-//     name: 'giotgi',
-//     age: 20,
-//     studentstatus: "active"
-// }
-// if (studentUser.age > 18 && studentUser.studentstatus === "active") {
-//     console.log("Hello");
-// } else if(studentUser.name === 'giorgi') {
-//     console.log('Hello giorgi');
-// } else if(studentUser.studentstatus === 'active' || studentUser.age < 25) {
-//     console.log('Hello  World');
-// } else {
-//     console.log("ERROR");
-// }
+let studentUser = {
+    name: 'giotgi',
+    age: 20,
+    studentstatus: "active"
+}
+if (studentUser.age > 18 && studentUser.studentstatus === "active") {
+    console.log("Hello");
+} else if(studentUser.name === 'giorgi') {
+    console.log('Hello giorgi');
+} else if(studentUser.studentstatus === 'active' || studentUser.age < 25) {
+    console.log('Hello  World');
+} else {
+    console.log("ERROR");
+}
 //-----------------------------------------------
 
 //davaleba-9
