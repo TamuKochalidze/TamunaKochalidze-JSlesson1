@@ -45,16 +45,26 @@
 //davaleba-4
 //მოცემული მაისივიდან კონსოლში გამოვიტანოთ მარტო ის ობიექტი რომლის status პროეპრტი მნიშვნელობა არის true
 
-let users = [
-    {username:'test1', status: false},
-    {username:'test2', status: false},
-    {username:'test3', status: true},
-];
-for (let u in users) {
-    if (users[u].status == true) {
-        console.log(user[u]);
-    }
-}
+// let users = [
+//     {username:'test1', status: false},
+//     {username:'test2', status: false},
+//     {username:'test3', status: true},
+// ];
+// for (let u in users) {
+//     if (users[u].status == true) {
+//         console.log(user[u]);
+//     }
+// }
+//-----------------------------------------------------
+
+//davaleba-5
+//მოცემული მასივიდან for ციკლის საშუალებით კონსოლში გამოიტანეთ მხოლოდ დადებითი რიცხვები:
+// let arr = [[2, -3, 5, 11], [1, -30, -11, 100], [-1, -3, -4]];
+// for (let n of arr[0]) {
+//     if (n > 0) {
+//         console.log(n);
+//     }
+// }
 //-----------------------------------------------------
 
 
@@ -62,7 +72,6 @@ for (let u in users) {
 
 
 
-//davaleba-5
 //davaleba-6
 //davaleba-7
 //davaleba-8
