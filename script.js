@@ -16,8 +16,8 @@ console.log(user['studentstatus']);
 
 let friends = ['giorgi', 'mari', 'daviti',]
 
-for (let i = 0; i < friends.length; i++) {
-  console.log(friends[i]);  
+    for (let i = 0; i < friends.length; i++) {
+  console.log(friends['giorgi', 'mari', 'daviti']);  
 }
 
 for (let i of friends) {
@@ -25,10 +25,12 @@ for (let i of friends) {
 }
 
 let i = 0;
-whine (i < friends.length) {
-    console.log(friends[i]);
+{
+while (i < friends.length) 
+    console.log(friends['giorgi', 'mari', 'daviti']);
     i++
 }
+
 //--------------------------------------
 
 //davaleba-3
@@ -104,7 +106,7 @@ for ( let i of array) {
 // თუ უსერის სტუდენტის სტატუსი აქტიურია ან უსერის ასაკი ნაკლებია 25ზე დაიბეჭდოს ტექსტი: hello world;
 
 let studentUser = {
-    name: 'giotgi',
+    name: 'giorgi',
     age: 20,
     studentstatus: "active"
 }
